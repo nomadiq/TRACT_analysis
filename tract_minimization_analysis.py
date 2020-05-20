@@ -26,8 +26,13 @@ dN = gamma_N*B_0*delta_dN/(3*np.sqrt(2)) # 15N CSA
 w_N = B_0 * gamma_N                      # 15N frequency (radians/s)
 
 # measured relaxation rates
-Rb = 80 #64 # Hz
-Ra = 22 #13 # Hz
+# Panel A Figure 4
+Rb = 64  # Hz
+Ra = 13  # Hz
+
+#Panel B Figure 4
+Rb = 80  # Hz
+Ra = 22  # Hz
 
 args = (w_N, Rb, Ra, p, dN, theta)
 

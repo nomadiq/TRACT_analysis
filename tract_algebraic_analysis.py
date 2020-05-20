@@ -25,8 +25,13 @@ dN = gamma_N*B_0*delta_dN/(3*np.sqrt(2))                                 # 15N C
 w_N = B_0 * gamma_N                                                      # 15N frequency (radians/s)
 
 # measured relaxation rates
-Rb = 64 # Hz - Figure 4 Panel A
-Ra = 13 # Hz - Figure 4 Panel A
+# Panel A Figure 4
+Rb = 64  # Hz
+Ra = 13  # Hz
+
+#Panel B Figure 4
+Rb = 80  # Hz
+Ra = 22  # Hz
 
 # from equivalence between equation (8) RHS and equation (9) RHS
 c = (Rb - Ra)/(2*dN*p*(3*np.cos(theta)**2-1))
